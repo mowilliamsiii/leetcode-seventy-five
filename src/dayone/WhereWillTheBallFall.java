@@ -5,7 +5,6 @@ package dayone;
 import java.util.*;
 
 public class WhereWillTheBallFall {
-
     public int[] findBall(int[][] grid) {
 
         int n = grid.length;
