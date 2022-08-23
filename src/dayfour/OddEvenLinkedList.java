@@ -33,7 +33,10 @@ public class OddEvenLinkedList {
 
             //create two list *odd and *even
             while (even != null && even.next != null) {
-
+                odd.next = even.next;
+                odd = odd.next;
+                even.next = odd.next;
+                even = even.next;
             }
 
             //connect two linked lists
